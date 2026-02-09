@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker | Portfolio Project</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+    <h1>Task Tracker</h1>
+    <p class="subtitle">A minimal CRUD application showcasing core web development skills</p>
+    <div class="skills-showcase">
+        <div class="skill-badge">HTML5</div>
+        <div class="skill-badge">CSS3</div>
+        <div class="skill-badge">JavaScript</div>
+        <div class="skill-badge">DOM Manipulation</div>
+        <div class="skill-badge">Local Storage</div>
+        <div class="skill-badge">Responsive Design</div>
+    </div>
+</header>
+    </div>
+
+    <div class="app-container">
+    <div class="input-section">
+        <input type="text" id="taskInput" placeholder="Enter a new task..." autocomplete="off">
+        <button class="btn btn-primary" id="addTaskBtn">
+            <i class="fas fa-plus"></i> Add Task
+        </button>
+        <button class="btn btn-secondary" id="clearCompletedBtn">
+            <i class="fas fa-trash-alt"></i> Clear Completed
+        </button>
+    </div>
+    
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Tasks</button>
+        <button class="filter-btn" data-filter="active">Active</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+    </div>
+    
+    <ul class="task-list" id="taskList">
+        <!-- Tasks will be dynamically inserted here -->
+        <li class="empty-state">
+            <i class="fas fa-clipboard-list"></i>
+            <p>No tasks yet. Add your first task above!</p>
+        </li>
+    </ul>
+    
+    <div class="stats">
+        <div class="stat-item">
+            <div class="stat-value" id="totalTasks">0</div>
+            <div class="stat-label">Total Tasks</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value" id="activeTasks">0</div>
+            <div class="stat-label">Active</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value" id="completedTasks">0</div>
+            <div class="stat-label">Completed</div>
+        </div>
+    </div>
+</div>
+    
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+    
+    <footer>
+    <p>Built by <strong id="developerName">Richard Hawes</strong> | Junior Web Developer Portfolio Project</p>
+    <p>
+        View code on <a href="#" class="portfolio-link" id="githubLink">GitHub</a> | 
+        Connect on <a href="#" class="portfolio-link" id="linkedinLink">LinkedIn</a>
+    </p>
+</footer>
+</body>
+</html>
