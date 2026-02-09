@@ -33,7 +33,7 @@ let currentFilter = 'all';
 // ======================
 
 developerName.textContent = 'Richard Hawes';
-githubLink.href = 'https://github.com/yourusername';
+githubLink.href = 'https://github.com/rchawes';
 linkedinLink.href = 'www.linkedin.com/in/richard-hawes-a4533399';
 
 // Initialize the application

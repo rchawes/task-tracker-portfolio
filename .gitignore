@@ -1,0 +1,16 @@
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node modules (if you add them later)
+node_modules/
+
+# Environment variables
+.env
