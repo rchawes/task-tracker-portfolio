@@ -28,10 +28,15 @@ A responsive, feature-rich task management application built with vanilla HTML, 
 ## 📁 Project Structure
 
 task-tracker-portfolio/
+
 ├── index.html # Main HTML file
+
 ├── style.css # All CSS styles
+
 ├── script.js # All JavaScript functionality
+
 ├── README.md # Project documentation
+
 └── .gitignore # Git ignore file
 
 ## 🔧 Installation & Usage
