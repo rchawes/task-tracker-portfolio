@@ -1,11 +1,11 @@
 # Task Tracker - Portfolio Project
 
-![Task Tracker Screenshot](screenshot.png) <!-- Adding screenshot later -->
+![Task Tracker Screenshot](screenshot1.png), (screenshot2.png)
 
 A responsive, feature-rich task management application built with vanilla HTML, CSS, and JavaScript. This project demonstrates core web development skills for a junior developer portfolio.
 
 ## 🚀 Live Demo
-[View Live on GitHub Pages](https://github.com/rchawes/task-tracker-portfolio.git/)
+[View Live on GitHub Pages](https://rchawes.github.io/task-tracker-portfolio/)
 
 ## ✨ Features
 
@@ -40,4 +40,3 @@ task-tracker-portfolio/
    ```bash
    git clone https://github.com/rchawes/task-tracker-portfolio.git
 
-   
