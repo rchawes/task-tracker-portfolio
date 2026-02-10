@@ -1,6 +1,7 @@
 # Task Tracker - Portfolio Project
 
-![Task Tracker Screenshot](screenshot1.png,screenshot2.png)
+![Task Tracker Screenshot](screenshot1.png)
+![Task Tracker Screenshot](screenshot2.png)
 
 A responsive, feature-rich task management application built with vanilla HTML, CSS, and JavaScript. This project demonstrates core web development skills for a junior developer portfolio.
 
